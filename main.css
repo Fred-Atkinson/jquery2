@@ -1,0 +1,94 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+
+.item{
+  margin: 10px 0;
+  font-family: Helvetica;
+    background-color: #ffffff;
+    padding: 10px;
+    
+}
+
+.dark-mode .item{
+    
+    margin: 10px 0;
+    font-family: Helvetica;
+    background-color: #423d3d;
+    padding: 10px;
+}
+
+#container{
+    border: #000000 solid 3px;
+    border-radius: 5px;
+}
+
+.dark-mode #container{
+    border: #bfbaba solid 3px;
+    border-radius: 5px;
+   
+}
+.name{
+    display: inline;
+    margin-left: 200px;
+    
+}
+.price{
+    display: inline;
+    
+}
+.details{
+    display: inline;
+    position: relative;
+    left: 300px;
+    
+}
+
+#body{
+    background-color: #e2dede;
+}
+
+#body.dark-mode{
+    background-color: #000000;
+}
+
+#toggle-dark-mode{
+    background-color: #e2dede;
+    color:#000000;
+    border: #000000 solid 1px;
+    padding: 10px;
+    border-radius: 5px;
+    position: fixed;
+  bottom: 100px;
+  left: 10px;
+    
+}
+
+
+#toggle-dark-mode.dark-mode{
+    background-color: #000000;
+    color:#ffffff;
+    border: #ffffff solid 1px;
+}
+
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: #000000 3px solid;
+    display: inline-block;
+    
+}
+
+
+h1.dark-mode{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: #ffffff 3px solid;
+    display: inline-block;
+}
